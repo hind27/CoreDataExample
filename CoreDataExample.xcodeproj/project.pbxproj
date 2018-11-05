@@ -13,6 +13,7 @@
 		B33AE55B218F0B5A005C1192 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B33AE559218F0B5A005C1192 /* CoreDataExample.xcdatamodeld */; };
 		B33AE55D218F0B5A005C1192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33AE55C218F0B5A005C1192 /* Assets.xcassets */; };
 		B33AE560218F0B5A005C1192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33AE55E218F0B5A005C1192 /* LaunchScreen.storyboard */; };
+		B33AE568218F14C4005C1192 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33AE567218F14C4005C1192 /* CityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B33AE55C218F0B5A005C1192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B33AE55F218F0B5A005C1192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33AE561218F0B5A005C1192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33AE567218F14C4005C1192 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B33AE552218F0B5A005C1192 /* AppDelegate.swift */,
 				B33AE554218F0B5A005C1192 /* ViewController.swift */,
+				B33AE567218F14C4005C1192 /* CityViewController.swift */,
 				B33AE556218F0B5A005C1192 /* Main.storyboard */,
 				B33AE55C218F0B5A005C1192 /* Assets.xcassets */,
 				B33AE55E218F0B5A005C1192 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				B33AE555218F0B5A005C1192 /* ViewController.swift in Sources */,
 				B33AE553218F0B5A005C1192 /* AppDelegate.swift in Sources */,
 				B33AE55B218F0B5A005C1192 /* CoreDataExample.xcdatamodeld in Sources */,
+				B33AE568218F14C4005C1192 /* CityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
