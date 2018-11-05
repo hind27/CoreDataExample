@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         //request.predicate = NSPredicate(format: "cityName CONTAINS %@", searchString!) // contains case sensitive
         //request.predicate = NSPredicate(format: "cityName LIKE[cd] %@", searchString!) // like case insensitive
         //request.predicate = NSPredicate(format: "cityName ==[cd] %@", searchString!)  // equal case insensitive
-        request.predicate = NSPredicate(format: "cityName == %@", searchString!) // equal case sensitive sensitive
+        request.predicate = NSPredicate(format: "cityName == %@", searchString!) // equal case sensitive,,, sensitive
         var outputString = " "
         do {
              let result = try context.fetch(request)
